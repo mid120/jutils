@@ -77,7 +77,7 @@ public class ExcelReadHelper {
 	 * @autor:chenssy
 	 * @date:2014年8月9日
 	 *
-	 * @param file
+	 * @param filePath
 	 * 				待解析的Excel文件的路径
 	 * @param properties
 	 * 				与Excel相对应的属性
@@ -104,7 +104,7 @@ public class ExcelReadHelper {
 	 * 				WorkBook对象，他代表了待将解析的Excel文件
 	 * @param properties
 	 * 				需要参考Object的属性
-	 * @param object
+	 * @param obj
 	 * 				构建的Object对象，每一个row都相当于一个object对象
 	 * @return
 	 * @throws Exception 
